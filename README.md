@@ -1,3 +1,13 @@
+During this challenge i wanted to learn more on how to make clean and readable code.
+
+# I planned to:
+ * Structure using Semantic HTML Elements
+ * Use clear naming in HTML
+ * Use CSS variables.
+ * Miminise repeat code
+ * Develop as 'Mobile First'
+ * Optimise for fast loading on mobile
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
