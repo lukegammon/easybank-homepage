@@ -147,6 +147,10 @@ nav {
     margin-bottom: 1rem;
 }
 
+.about-sub__img {
+    margin-top: 1.5rem;
+}
+
 .hero__info,
 .about__info,
 .about-sub__info {
