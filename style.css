@@ -329,6 +329,9 @@ figcaption {
     }
     
     .nav__menu-link a:hover {
+        color: var(--dark-blue);
+    }
+    .nav__menu-link a:visited {
         border-bottom: 4px solid var(--lime-green);
     }
     .nav__button {
