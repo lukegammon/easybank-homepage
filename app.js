@@ -26,10 +26,12 @@ hamburgerMenu.addEventListener("click", () => {
 
 dropdownMenuLinks.forEach(link => {
     link.addEventListener("click", () => {
-        dropdownMenu.style.display = "none";
-        overlay.style.display = "none";
-        body.style.overflowY = "visible";
-        menuIsActive = false;
+        if(menuIsActive) {
+            dropdownMenu.style.display = "none";
+            overlay.style.display = "none";
+            body.style.overflowY = "visible";
+            menuIsActive = false;
+        }
     })
 })
 

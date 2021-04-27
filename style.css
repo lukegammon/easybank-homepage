@@ -308,8 +308,12 @@ figcaption {
         width: 80%;
         margin: 0 auto;
     }
+
     .nav__menu {
+        all: unset;
         display: flex;
+        flex-direction: row;
+        list-style-type: none;
     }
     .nav__menu-link {
         margin: 1rem;
@@ -317,11 +321,11 @@ figcaption {
         cursor: pointer;
         border: 4px solid transparent;
         font-size: .9rem;
+        padding: 0;
     }
 
     .nav__menu-link a {
         text-decoration: none;
-        padding: 1rem 0;
     }
     
     .nav__menu-link a:hover {
