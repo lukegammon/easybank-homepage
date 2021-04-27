@@ -1,5 +1,7 @@
 During this challenge i wanted to learn more on how to make clean and readable code.
 
+THIS PAGE IS NON FUNCTIONAL(LIMITED WORKING LINKS) ONLY THE CODE WAS IMPLEMENTED FROM THE DESIGN
+
 # I planned to:
  * Structure using Semantic HTML Elements
  * Use clear naming in HTML
