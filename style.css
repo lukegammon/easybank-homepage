@@ -67,16 +67,17 @@ nav {
     border-radius: .25rem;
     text-align: center;
     z-index: 21;
+    color: var(--dark-blue);
 }
 .nav__menu-link {
     padding: 1rem 0 ;
     font-weight: var(--font-medium);
-    color: var(--dark-blue);
 }
 
 .nav__menu-link a {
     text-decoration: none;
     padding: 1rem 0;
+    color: var(--dark-blue);
 }
 
 .nav__menu-link a:visited {
