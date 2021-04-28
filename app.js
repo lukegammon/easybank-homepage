@@ -35,3 +35,18 @@ dropdownMenuLinks.forEach(link => {
     })
 })
 
+const requestLinks = document.querySelectorAll("button");
+const modal = document.querySelector(".request-modal");
+const closeModal = document.querySelector(".request-modal__close");
+requestLinks.forEach(button => {
+    button.addEventListener("click", () => {
+        modal.style.display = "flex";
+        overlay.style.display = "block";
+        body.style.overflowY = "hidden";
+    })
+});
+closeModal.addEventListener("click", () => {
+    modal.style.display = "none";
+    overlay.style.display = "none";
+    body.style.overflowY = "visible";
+})

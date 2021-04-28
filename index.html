@@ -152,8 +152,21 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Luke Gammon</a>.
   </div>
+  <!-- OVERLAYS AND MODALS-->
   <div class="overlay"></div>
-  <div class="request-modal"></div>
+  <div class="request-modal">
+    <img class="request-modal__close" src="./images/icon-close.svg" alt="close">
+      <h4 class="request-modal__heading">Request Invite</h4>
+      <p class="request-modal__info">Send us your details and we will get back to you within 24 hours.</p>
+    <form>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email"><br>
+      <button class="request-modal__btn">Send</button>
+    </form>
+  </div>
   <script src="./app.js"></script>
+  <!------------------------>
 </body>
 </html>

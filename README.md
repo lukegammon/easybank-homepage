@@ -1,6 +1,6 @@
 During this challenge i wanted to learn more on how to make clean and readable code.
 
-THIS PAGE IS NON FUNCTIONAL(LIMITED WORKING LINKS) ONLY THE CODE WAS IMPLEMENTED FROM THE DESIGN
+--This page is not fully functional, not all links have content.--
 
 # I planned to:
  * Structure using Semantic HTML Elements
