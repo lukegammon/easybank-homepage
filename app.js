@@ -31,6 +31,7 @@ dropdownMenuLinks.forEach(link => {
             overlay.style.display = "none";
             body.style.overflowY = "visible";
             menuIsActive = false;
+            hamburgerMenu.src = "./images/icon-hamburger.svg";
         }
     })
 })
